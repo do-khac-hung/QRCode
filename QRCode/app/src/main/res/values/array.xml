@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_key_alarm_noti_options">
+        <item>15 Phut</item>
+        <item>30 Phut</item>
+        <item>60 Phut</item>
+        <item>120 Phut</item>
+    </string-array>
+
+    <string-array name="pref_key_alarm_noti_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+    </string-array>
+</resources>

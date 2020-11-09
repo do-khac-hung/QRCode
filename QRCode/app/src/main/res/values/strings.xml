@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name" translatable="false">My Warehouse</string>
+
+    <!-- For scan element -->
+    <string name="id_label" translatable="false">Mã Vật Tư</string>
+    <string name="locate_label" translatable="false">Mã Vị Trí</string>
+    <string name="quantity_label" translatable="false">Số Lượng</string>
+    <string name="scan_label" translatable="false">Quét</string>
+    <string name="scan_cancel_label" translatable="false">Hủy</string>
+    <string name="scan_hint" translatable="false">Đang Quét</string>
+    <string name="scan_po_label" translatable="false">Đang Quét PO</string>
+    <string name="scan_pl_label" translatable="false">Đang Quét PL</string>
+    <string name="scan_description_label" translatable="false">Đang Quét Mô Tả</string>
+    <string name="scan_id_label" translatable="false">Đang Quét ID</string>
+    <string name="scan_location_label" translatable="false">Đang Quét Vị Trí</string>
+
+    <!-- Strings related to login -->
+    <string name="title_activity_login">Sign in</string>
+    <string name="action_sign_in" translatable="false">Đăng Nhập</string>
+    <string name="action_sign_up" translatable="false">Đăng Ký</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="company_name" translatable="false">My Warehouse</string>
+    <string name="username_label">Tài Khoản</string>
+    <string name="password_label">Mật Khẩu</string>
+    <string name="remember_password">Lưu Mật Khẩu Cho Lần Sau Sử Dụng</string>
+    <string name="social_login_label">Đăng Nhập Bằng Mạng Xã Hội</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Cấu Hình</string>
+    <string name="action_income">Nhập Kho</string>
+    <string name="action_outcome">Xuất Kho</string>
+    <string name="action_report">Báo Cáo</string>
+
+    <!-- Sign Up -->
+    <string name="fullname_label">Họ Tên</string>
+    <string name="action_sign_up_short">Đăng Ký</string>
+    <string name="action_cancel">Hủy</string>
+
+    <!--report fragment-->
+    <string name="location_report">Vị Trí Trong Kho</string>
+    <string name="item_report">Vật Tư Kho</string>
+    <string name="user_report">Nhân Viên</string>
+
+    <string name="user_name_label">Nhân Viên</string>
+    <string name="description_label">Mô Tả</string>
+    <string name="save_label">Lưu</string>
+    <string name="po_label">Số PO</string>
+    <string name="pl_label">Số PL</string>
+    <string name="action_todo">Giao Việc</string>
+
+    <!--setting fragment-->
+    <string name="pref_key_free_id">pref_key_free_id</string>
+    <string name="pref_key_internet">pref_key_internet</string>
+    <string name="pref_key_alarm_noti">pref_key_alarm_noti</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBoxPreference
+        android:key="pref_key_free_id"
+        android:title="Mã Vật Tư Tự Do"
+        android:defaultValue="false" />
+
+    <CheckBoxPreference
+        android:key="pref_key_internet"
+        android:title="Dùng Offline"
+        android:summary="Cho Phep Dung Khi Mat Ket Noi Internet"
+        android:defaultValue="false" />
+
+    <ListPreference
+        android:defaultValue="15"
+        android:key="pref_key_alarm_noti"
+        android:title="Thông báo quan trọng"
+        android:entries="@array/pref_key_alarm_noti_options"
+        android:entryValues="@array/pref_key_alarm_noti_values" />
+
+    <Preference
+        android:key="pref_sign_out"
+        android:title="Đăng xuất" />
+
+</PreferenceScreen>

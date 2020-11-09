@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_income"
+        android:enabled="true"
+        android:icon="@drawable/ic_cart_in"
+        android:title="@string/action_income"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/action_outcome"
+        android:enabled="true"
+        android:icon="@drawable/ic_cart_out"
+        android:title="@string/action_outcome"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/action_report"
+        android:enabled="true"
+        android:icon="@drawable/ic_report"
+        android:title="@string/action_report"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/action_todo"
+        android:enabled="true"
+        android:icon="@drawable/ic_assignment"
+        android:title="@string/action_todo"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/action_settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_setting"
+        android:title="@string/action_settings"
+        app:showAsAction="withText" />
+</menu>
